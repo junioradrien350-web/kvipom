@@ -1,0 +1,7 @@
+"https://{default}/VOTRE_PATH":
+  type: proxy
+  to: "https://VOTRE_DOMAINE/VOTRE_PATH"
+
+"https://{default}/":
+  type: redirect
+  to: "https://{default}/VOTRE_PATH"
