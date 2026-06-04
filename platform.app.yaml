@@ -1,0 +1,13 @@
+name: proxy-app
+type: "php:8.2"
+disk: 256
+
+web:
+  locations:
+    "/":
+      root: "public"
+      passthru: true
+      allow: false
+      rules:
+        \.php$:
+          allow: true
