@@ -1,7 +1,7 @@
-"https://{default}/VOTRE_PATH":
+"https://{default}/KIGHMU/":
   type: proxy
-  to: "https://VOTRE_DOMAINE/VOTRE_PATH"
+  to: "https://vlo.kingom.ggff.net/KIGHMU/"
 
 "https://{default}/":
   type: redirect
-  to: "https://{default}/VOTRE_PATH"
+  to: "https://{default}/KIGHMU/"
